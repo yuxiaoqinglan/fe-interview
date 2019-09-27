@@ -1,10 +1,11 @@
 # vue面试题
-> 鼓励PR
+> 鼓励PR，持续更新（Vue v2.6.10）
 
-## 历史题目(最新：2019.06.26)
+## 历史题目(最新：2019.07.27)
 [vue](#vue) | [vue-cli](#vue-cli) | [vue-router](#vue-router) | [vuex](#vuex)  | [ElementUI](#ElementUI) | [ElementUI](#ElementUI) | [mint-ui](#mint-ui)
 
 ### vue
+- [从0到1自己构架一个vue项目，说说有哪些步骤、哪些重要插件、目录结构你会怎么组织](https://github.com/haizlin/fe-interview/issues/983)
 - [你知道vue的模板语法用的是哪个web模板引擎的吗？说说你对这模板引擎的理解](https://github.com/haizlin/fe-interview/issues/561)
 - [你知道v-model的原理吗？说说看](https://github.com/haizlin/fe-interview/issues/560)
 - [你有使用过vue开发多语言项目吗？说说你的做法？](https://github.com/haizlin/fe-interview/issues/559)
@@ -190,7 +191,7 @@
 - [说说vue的优缺点](https://github.com/haizlin/fe-interview/issues/224)
 - [有使用过vue吗？说说你对vue的理解](https://github.com/haizlin/fe-interview/issues/223)
 
-## vue-cli
+### vue-cli
 - [vue-cli提供了的哪几种脚手架模板？](https://github.com/haizlin/fe-interview/issues/543)
 - [vue-cli工程中常用的npm命令有哪些？](https://github.com/haizlin/fe-interview/issues/542)
 - [在使用vue-cli开发vue项目时，自动刷新页面的原理你了解吗？](https://github.com/haizlin/fe-interview/issues/541)

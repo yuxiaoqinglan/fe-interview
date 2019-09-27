@@ -2,8 +2,115 @@
 > 一周汇总一次
 
 ## 历史题目
-> 最新：2019.06.30
+> 最新：2019.09.22
 
+- [在js中attribute和property的区别是什么？](https://github.com/haizlin/fe-interview/issues/1235)
+- [举例说明数组的排序方法有哪些？](https://github.com/haizlin/fe-interview/issues/1231)
+- [举例说明js拖拽用到的事件有哪些？](https://github.com/haizlin/fe-interview/issues/1227)
+- [用原生JS封装插件的方式有哪些？](https://github.com/haizlin/fe-interview/issues/1223)
+- [用js模拟实现微信抢红包的算法，并说明你的思路](https://github.com/haizlin/fe-interview/issues/1219)
+- [如何实现锁定网页、密码解锁的效果？说说你的方法和步骤是什么？](https://github.com/haizlin/fe-interview/issues/1215)
+- [你知道1和Number(1)的区别是什么吗？](https://github.com/haizlin/fe-interview/issues/1211)
+- [说说CORS为何要区分预检请求和简单请求呢？](https://github.com/haizlin/fe-interview/issues/1207)
+- [实现异步编程有哪些方式？推荐用哪种？](https://github.com/haizlin/fe-interview/issues/1203)
+- [为什么说js是单线程，而不是多线程呢？](https://github.com/haizlin/fe-interview/issues/1199)
+- [使用js实现摩斯密码的加密和解密](https://github.com/haizlin/fe-interview/issues/1184)
+- [请使用原生的js实现斐波那契数列](https://github.com/haizlin/fe-interview/issues/1180)
+- [阻止事件的默认行为有哪些？说说它们之间的区别是什么？](https://github.com/haizlin/fe-interview/issues/1176)
+- [请举例说明动态操作DOM的方法有哪些？](https://github.com/haizlin/fe-interview/issues/1171)
+- [原生Math的方法有哪些？请列举并描述其功能](https://github.com/haizlin/fe-interview/issues/1167)
+- [什么是词法分析？请描述下js词法分析的过程？](https://github.com/haizlin/fe-interview/issues/1163)
+- [自己实现数组的 `map`、`filter`、`find` 方法](https://github.com/haizlin/fe-interview/issues/1159)
+- [请描述下函数的执行过程](https://github.com/haizlin/fe-interview/issues/1154)
+- [写一个洗扑克牌的方法](https://github.com/haizlin/fe-interview/issues/1150)
+- [说用原生js实现封装一个选项卡的功能](https://github.com/haizlin/fe-interview/issues/1146)
+- [说下你对柯里化函数(currying)的理解，它有什么运用场景？](https://github.com/haizlin/fe-interview/issues/1142)
+- [请描述下ajax的请求都有哪些步骤？](https://github.com/haizlin/fe-interview/issues/1138)
+- [用js实现页面局部打印和预览原理是什么呢？同时在IE上有什么不同？](https://github.com/haizlin/fe-interview/issues/1134)
+- [用js实现小写金额转大写的方法](https://github.com/haizlin/fe-interview/issues/1130)
+- [请解释下NaN === NaN的结果](https://github.com/haizlin/fe-interview/issues/1126)
+- [请写出如下代码运行的结果并解释为什么？[代码]](https://github.com/haizlin/fe-interview/issues/1122)
+```javascript
+
+    var type = 'images';
+    var size = {width: 800, height: 600};
+    var format = ['jpg', 'png'];
+
+    function change(type, size, format){
+        type = 'video';
+        size = {width: 1024, height: 768};
+        format.push('map');
+    }
+
+    change(type, size, format);
+
+    console.log(type, size, format);
+
+```
+- [写一个方法，将字符串中的单词倒转后输出，如：`my love` -> `ym evol`](https://github.com/haizlin/fe-interview/issues/1118)
+- [原生的字符串操作方法有哪些？请列举并描述其功能](https://github.com/haizlin/fe-interview/issues/1114)
+- [JSON.stringify有什么局限性和哪些技巧？](https://github.com/haizlin/fe-interview/issues/1110)
+- [如何实现一个全屏的功能？](https://github.com/haizlin/fe-interview/issues/1106)
+- [举例说明js关闭当前窗口有哪些方法？](https://github.com/haizlin/fe-interview/issues/1102)
+- [说说你对js包装对象的理解](https://github.com/haizlin/fe-interview/issues/1098)
+- [JavaScript有几种类型值？能否画出它们的内存图？](https://github.com/haizlin/fe-interview/issues/1094)
+- [保护js代码的方式有哪些？分别说说他们的原理是什么？](https://github.com/haizlin/fe-interview/issues/1090)
+- [你有用过webRTC吗？它有什么运用场景？](https://github.com/haizlin/fe-interview/issues/1085)
+- [如何实现文件拖动上传？](https://github.com/haizlin/fe-interview/issues/1080)
+- [分析`('b' + 'a' + +'a' + 'a').toLowerCase()`返回的结果](https://github.com/haizlin/fe-interview/issues/1075)
+- [能否正确获取本地上传的文件路径？如果可以怎么做？如果不可以解释下为什么？](https://github.com/haizlin/fe-interview/issues/1071)
+- [请说说escape、encodeURI、decodeURI、encodeURIComponent和decodeURIComponent的区别？](https://github.com/haizlin/fe-interview/issues/1067)
+- [如何终止WebWork？](https://github.com/haizlin/fe-interview/issues/1063)
+- [写一个方法把多维数组降维](https://github.com/haizlin/fe-interview/issues/1059)
+- [使用正则去掉html中标签与标签之间的空格](https://github.com/haizlin/fe-interview/issues/1055)
+- [document.write和innerHTML有什么区别？](https://github.com/haizlin/fe-interview/issues/1051)
+- [如何使用js来截图？怎样截可见区域和整个页面？](https://github.com/haizlin/fe-interview/issues/1047)
+- [分别写出防抖和节流的两个函数，并描述它们分别有什么运用场景？](https://github.com/haizlin/fe-interview/issues/1043)
+- [写一个把数字转成中文的方法，例如：101转成一百零一](https://github.com/haizlin/fe-interview/issues/1039)
+- [用js写一个事件侦听器的方法](https://github.com/haizlin/fe-interview/issues/1035)
+- [函数声明与函数表达式有什么区别？](https://github.com/haizlin/fe-interview/issues/1031)
+- [请用js编写一个红绿灯程序](https://github.com/haizlin/fe-interview/issues/1027)
+- [请详细描述AJAX的工作原理](https://github.com/haizlin/fe-interview/issues/1023)
+- [请描述下什么是原型模式？它主要运用在哪些场景？](https://github.com/haizlin/fe-interview/issues/1019)
+- [请描述下js的原型和原型链的理解以及它们之间的关系](https://github.com/haizlin/fe-interview/issues/1015)
+- [写一个方法判断给定的字符串是否同态(isomorphic)](https://github.com/haizlin/fe-interview/issues/1011)
+- [说说你对作用域链的理解](https://github.com/haizlin/fe-interview/issues/1007)
+- [写个方法，找出指定字符串中重复最多的字符及其长度](https://github.com/haizlin/fe-interview/issues/1003)
+- [请说说json和jsonp的区别？](https://github.com/haizlin/fe-interview/issues/998)
+- [你是如何更好地处理Async/Await的异常呢的？](https://github.com/haizlin/fe-interview/issues/994)
+- [准确说出`'1,2,3,4'.split()`的结果是什么（包括类型和值）？](https://github.com/haizlin/fe-interview/issues/990)
+- [不依赖第三方库，说下如何使用js读取pdf？](https://github.com/haizlin/fe-interview/issues/986)
+- [分别封装精确运算的加减乘除四个方法](https://github.com/haizlin/fe-interview/issues/981)
+- [不用第三方库，说说纯js怎么实现读取和导出excel？](https://github.com/haizlin/fe-interview/issues/977)
+- [说说你理解的同步和异步的区别是什么？](https://github.com/haizlin/fe-interview/issues/973)
+- [写例子说明如何给li绑定事件（ul下有1000+个li）？](https://github.com/haizlin/fe-interview/issues/969)
+- [要实现一个js的持续动画，你有什么比较好的方法？](https://github.com/haizlin/fe-interview/issues/964)
+- [分别写出数组的交集、并集、差集、补集这四个方法](https://github.com/haizlin/fe-interview/issues/960)
+- [用js写出死循环的方法有哪些？](https://github.com/haizlin/fe-interview/issues/956)
+- [js的函数有哪几种调用形式？](https://github.com/haizlin/fe-interview/issues/908)
+- [解释下为什么`{} + [] === 0`为true？](https://github.com/haizlin/fe-interview/issues/904)
+- [请描述下null和undefined的区别是什么？这两者分别运用在什么场景？](https://github.com/haizlin/fe-interview/issues/759)
+- [写个方法随机打乱一个数组](https://github.com/haizlin/fe-interview/issues/749)
+- [js异步加载有哪些方案？](https://github.com/haizlin/fe-interview/issues/745)
+- [判断instanceof的结果并解释原因 [代码]](https://github.com/haizlin/fe-interview/issues/609)
+```
+    function test(){ 
+        return test; 
+    } 
+    new test() instanceof test;
+```
+- [请写一个sleep（暂停）函数](https://github.com/haizlin/fe-interview/issues/602)
+- [把Script标签放在页面最底部的`</body>`之前和之后有什么区别？浏览器会如何解析它们？](https://github.com/haizlin/fe-interview/issues/598)
+- [js延迟加载的方式有哪些？](https://github.com/haizlin/fe-interview/issues/594)
+- [请描述你对浏览器同源策略的理解](https://github.com/haizlin/fe-interview/issues/590)
+- [举例说明js如何实现继承？](https://github.com/haizlin/fe-interview/issues/586)
+- [用js实现一个九九乘法口诀表](https://github.com/haizlin/fe-interview/issues/582)
+- [在js中怎么捕获异常？写出来看看？应该在哪些场景下采用呢？](https://github.com/haizlin/fe-interview/issues/578)
+- [举例说明什么是decodeURI()和encodeURI()是什么？](https://github.com/haizlin/fe-interview/issues/574)
+- [举例说明什么是IIFEs？它有什么好处？](https://github.com/haizlin/fe-interview/issues/570)
+- [举例说明数组和对象的迭代方法分别有哪些？](https://github.com/haizlin/fe-interview/issues/564)
+- [请快速答出此题的答案并解释：var x, y = 1; x + y = ?](https://github.com/haizlin/fe-interview/issues/532)
+- [说说instanceof和typeof的实现原理并自己模拟实现一个instanceof](https://github.com/haizlin/fe-interview/issues/528)
 - [js中=、==、===三个的区别是什么？并说明它们各自的工作过程](https://github.com/haizlin/fe-interview/issues/523)
 - [写一个方法随机生成指定位数的字符串](https://github.com/haizlin/fe-interview/issues/519)
 - [移动端点击事件为什么会有延迟？有哪些方法可以解决？](https://github.com/haizlin/fe-interview/issues/515)
@@ -37,7 +144,7 @@
 - [写出几种创建对象的方式，并说说他们的区别是什么？](https://github.com/haizlin/fe-interview/issues/171)
 - [深度克隆对象的方法有哪些，并把你认为最好的写出来](https://github.com/haizlin/fe-interview/issues/167)
 - [JQuery的源码看过吗？能不能简单概括一下它的实现原理？](https://github.com/haizlin/fe-interview/issues/163)
-- [window对象和document对象有干什么区别？](https://github.com/haizlin/fe-interview/issues/157)
+- [window对象和document对象有什么区别？](https://github.com/haizlin/fe-interview/issues/157)
 - [说说你对IIFE的理解](https://github.com/haizlin/fe-interview/issues/154)
 - [为什么会有跨域问题？怎么解决跨域？](https://github.com/haizlin/fe-interview/issues/150)
 - [说说你对模块化的理解](https://github.com/haizlin/fe-interview/issues/146)
